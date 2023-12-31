@@ -1,0 +1,45 @@
+@charset "utf-";
+
+
+
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    #login{
+        width: 80vw;
+    }
+    
+    #imagem{
+        float: left;
+        width: 30%;
+        height: 100%;
+        background-position: center;
+    }
+    #formulario{
+        float: right;
+        width: 70%;
+    }
+}
+
+
+@media screen and (min-width:992px){
+    body{
+        background-image:linear-gradient(to top, rgba(0, 0, 0, 0.678), #2e2979) ;
+    }
+    #login{
+        width: 950px;
+    }
+    
+    #imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: center;
+    }
+    #formulario{
+        float: right;
+        width: 50%;
+      
+    }
+
+
+}
